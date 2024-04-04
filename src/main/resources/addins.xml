@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension xmlns="http://addins.webcube.ser.com/v1" classpath=".;WEB-INF/lib;*">
+    <scripts>
+        <script active="{cxiBoolean}1"
+                class="com.ser.JSONEditor"
+                name="JSON-Editor"
+                processDef=""
+                processType=""
+                reference="46e964ec-e883-491c-bd19-a4eb4214d604"
+                server=""
+                system=""
+                type="record"/>
+        <script active="{cxiBoolean}1"
+                class="com.ser.JExcel_Sample01"
+                name="JExcel-Sample01"
+                processDef=""
+                processType=""
+                reference="ef647e95-a75f-475c-b9e8-dab9418d45d2"
+                server=""
+                system=""
+                type="record"/>
+    </scripts>
+    <security>
+        <configuration>
+            <public-area>
+                <url-pattern>.*</url-pattern>
+            </public-area>
+        </configuration>
+    </security>
+</extension>
